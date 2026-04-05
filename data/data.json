@@ -1,0 +1,12 @@
+[
+  {"id":1,"name":"Alice","age":25.0,"email":"alice@example.com","tanggal":"2023-01-15","nilai":100.5},
+  {"id":2,"name":"Bob","age":30.0,"email":null,"tanggal":"2023-02-20","nilai":null},
+  {"id":3,"name":"Charlie","age":null,"email":"charlie@example.com","tanggal":"invalid-date","nilai":300.0},
+  {"id":4,"name":null,"age":35.0,"email":"david@example.com","tanggal":"2023-04-10","nilai":400.0},
+  {"id":5,"name":"David","age":40.0,"email":"eve@example.com","tanggal":"2023-05-25","nilai":500.0},
+  {"id":6,"name":"Eve","age":45.0,"email":null,"tanggal":"2023-06-30","nilai":600.0},
+  {"id":7,"name":null,"age":50.0,"email":"frank@example.com","tanggal":null,"nilai":700.0},
+  {"id":8,"name":"Frank","age":null,"email":"grace@example.com","tanggal":"2023-08-05","nilai":800.0},
+  {"id":9,"name":"Grace","age":55.0,"email":null,"tanggal":"2023-09-15","nilai":900.0},
+  {"id":10,"name":"Hank","age":60.0,"email":"hank@example.com","tanggal":"2023-10-20","nilai":1000.0}
+]
