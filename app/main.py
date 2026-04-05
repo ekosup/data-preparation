@@ -21,7 +21,7 @@ def root():
     return {"message": "API is running"}
 
 
-# 🔹 ambil data (limit)
+# get all data with limit
 @app.get("/data")
 def get_data(limit: int = Query(10, le=100)):
     query = text("SELECT * FROM public.data LIMIT :limit")
@@ -36,7 +36,7 @@ def get_data(limit: int = Query(10, le=100)):
     }
 
 
-# 🔹 filter by name
+# filter by name
 @app.get("/search")
 def search(name: str):
     query = text("""
@@ -52,7 +52,7 @@ def search(name: str):
     return rows
 
 
-# 🔹 filter by nilai (range)
+# filter by nilai (range)
 @app.get("/nilai")
 def filter_nilai(min_nilai: float = 0, max_nilai: float = 100):
     query = text("""
