@@ -5,3 +5,9 @@ services:
     env_file:
       - .env
     restart: unless-stopped
+    networks:
+      - ekos-network
+
+networks:
+  ekos-network:
+    external: true
