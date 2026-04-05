@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    container_name: fastapi_training
+    env_file:
+      - .env
+    restart: unless-stopped
