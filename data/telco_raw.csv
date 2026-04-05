@@ -90,7 +90,7 @@ id,customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,Multip
 88,2796-NNUFI,Female,No,Yes,Yes,46,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,19.95,927.1,Stayed
 89,3016-KSVCP,Male,No,Yes,No,29,No,No phone service,DSL,No,No,No,No,Yes,No,Month-to-month,No,Mailed check,33.75,1009.25,Stayed
 90,4767-HZZHQ,Male,No,Yes,Yes,30,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),82.05,2570.2,Stayed
-91,2424-WVHPL,Male,Yes,No,No,1,Yes,No,Fiber optic,No,No,No,Yes,No,No,Month-to-month,No,Electronic check,74.7,74.7,Stayed
+91,2424-WVHPL,Male,Yes,No,No,1,Yes,No,Fiber optic,No,No,No,Yes,No,No,Month-to-month,No,Electronic check,1290,74.7,Stayed
 92,7233-PAHHL,Male,No,Yes,Yes,66,Yes,Yes,DSL,Yes,No,Yes,Yes,Yes,Yes,Two year,Yes,Mailed check,84.0,5714.25,Stayed
 93,6067-NGCEU,Female,No,No,No,65,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),111.05,7107,Stayed
 94,9848-JQJTX,Male,No,No,No,72,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Two year,Yes,Bank transfer (automatic),100.9,7459.05,Stayed
@@ -118,7 +118,7 @@ id,customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,Multip
 116,9560-BBZXK,Female,No,No,No,36,No,No phone service,DSL,Yes,No,No,No,No,No,Two year,No,Bank transfer (automatic),31.05,1126.35,Stayed
 117,5299-RULOA,Female,No,Yes,Yes,10,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,100.25,1064.65,Churned
 118,8402-OOOHJ,Female,No,No,No,41,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,20.65,835.15,Stayed
-119,9445-ZUEQE,Male,No,Yes,Yes,27,Yes,Yes,Fiber optic,No,Yes,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),85.2,2151.6,Stayed
+119,9445-ZUEQE,Male,No,Yes,Yes,27,Yes,Yes,Fiber optic,No,Yes,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),9.2,2151.6,Stayed
 120,1091-SOZGA,Female,No,Yes,Yes,56,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,One year,Yes,Credit card (automatic),99.8,5515.45,Stayed
 121,2928-HLDBA,Female,No,No,No,6,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,20.7,112.75,Stayed
 122,0404-SWRVG,Male,No,No,No,3,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,74.4,229.55,Churned
