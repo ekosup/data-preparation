@@ -1,5 +1,10 @@
-DS_Store
+.DS_Store
 .idea/
 temp/
 .venv/
 .env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
