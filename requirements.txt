@@ -12,3 +12,7 @@ python-dotenv
 seaborn
 matplotlib
 missingno
+
+# utility
+faker
+ipywidgets
