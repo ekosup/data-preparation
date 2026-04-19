@@ -316,6 +316,7 @@ def generate_finance_row(i: int) -> dict:
 
 
 STATIC_FINANCE_DATA = None
+FINAL_FINANCE_DATA = None
 
 
 def get_or_create_static_finance_data():
@@ -325,6 +326,16 @@ def get_or_create_static_finance_data():
         STATIC_FINANCE_DATA = [generate_finance_row(i) for i in range(50)]
         random.seed()  # reset to non-deterministic
     return STATIC_FINANCE_DATA
+
+
+def get_or_create_final_finance_data():
+    """Create and cache a deterministic 1000-row finance dataset once."""
+    global FINAL_FINANCE_DATA
+    if FINAL_FINANCE_DATA is None:
+        random.seed(42)
+        FINAL_FINANCE_DATA = [generate_finance_row(i) for i in range(1000)]
+        random.seed()  # reset to non-deterministic
+    return FINAL_FINANCE_DATA
 
 
 @app.get("/api/finance-data/static")
@@ -350,6 +361,20 @@ def get_finance_data():
     missing values, outliers, negative anomalies, mixed types, malformed IDs, and dirty fields.
     """
     rows = [generate_finance_row(i) for i in range(50)]
+    return {
+        "status": "ok",
+        "count": len(rows),
+        "data": rows,
+    }
+
+
+@app.get("/api/finance-data-final")
+def get_finance_data_final():
+    """
+    Final finance dataset endpoint.
+    Returns the same cached 1000 rows on every call.
+    """
+    rows = get_or_create_final_finance_data()
     return {
         "status": "ok",
         "count": len(rows),
